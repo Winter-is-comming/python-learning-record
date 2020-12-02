@@ -15,6 +15,16 @@
     * 进入 [新建函数](https://fc.console.aliyun.com/fc/service/cn-shanghai/aoj_sign/function/create)  
     * 选择 _事件函数_ 后，点击 _下一步_  
     * 按照图片填写后，点击完成  
-    ![finish](https://s3.ax1x.com/2020/12/03/DorYVI.png)  
+        ![finish](https://s3.ax1x.com/2020/12/03/DorYVI.png)  
 3. 部署
-    * 
+    * 下载代码包，点击 [这里](https://github.com/Winter-is-comming/python-learning-record/releases/download/v1.0/aoj_sign.zip) 下载  
+    * 按照图片选择 _代码包上传_ 点击 _选择文件_ ，选择刚才下载好的文件上传  
+        ![push](https://s3.ax1x.com/2020/12/03/DorXRO.png)
+        * 点击 _保存_  
+    * 进入 [创建触发器](https://fc.console.aliyun.com/fc/service/cn-shanghai/aoj_sign/function/aoj_sign/trigger)  ，点击 _创建触发器_ ，按照图片输入后点击 _确定_  
+        * 时间配置： ```0 0 1 * * *```  
+        ![pic](https://s3.ax1x.com/2020/12/03/Dos9eA.png)  
+
+## 完成
+    * 每天上午9点，脚本会自动执行，并将结果发送至你的微信
+    × 未完待续    
