@@ -12,6 +12,6 @@ sckey = ['sckey1',
 #     aoj.sign(user_id[i], password[i], sckey[i])
 
 
-def main():
+def main(event, context):
     for i in range(len(user_id)):
         aoj.sign(user_id[i], password[i], sckey[i])
